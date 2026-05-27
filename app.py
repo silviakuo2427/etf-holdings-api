@@ -2,6 +2,8 @@ from flask import Flask, jsonify
 from flask_cors import CORS
 import requests
 from bs4 import BeautifulSoup
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 import logging
 import traceback
 from datetime import datetime
@@ -105,7 +107,7 @@ def fetch_from_moneydj(etf_code):
         "Referer": "https://www.moneydj.com/",
     }
     try:
-        resp = requests.get(url, headers=headers, timeout=15)
+        resp = requests.get(url, headers=headers, timeout=15, verify=False)
         if resp.status_code != 200:
             return {}
         resp.encoding = "utf-8"
