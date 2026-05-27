@@ -230,13 +230,31 @@ def get_etfs_by_stock(stock_code):
         logging.error(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
 
-# 每天 9:30 自動更新
+# 啟動時先載入備用資料，讓伺服器快速上線
+def load_fallback_cache():
+    global holdings_cache, last_updated
+    for etf_code, meta in ETF_META.items():
+        holdings_cache[etf_code] = {
+            "code": etf_code,
+            "name": meta["name"],
+            "issuer": meta["issuer"],
+            "type": meta["type"],
+            "subtype": meta.get("subtype", ""),
+            "link": meta.get("link", ""),
+            "holdings": FALLBACK_DATA.get(etf_code, {}),
+            "source": "fallback",
+        }
+    last_updated = datetime.now().strftime("%Y-%m-%d %H:%M") + "（備用資料）"
+    logging.info(f"📦 備用資料載入完成，共 {len(holdings_cache)} 支 ETF")
+
+load_fallback_cache()
+
+# 啟動後 3 分鐘跑第一次真實爬蟲，之後每天 9:30 自動更新
+from datetime import timedelta
 scheduler = BackgroundScheduler()
 scheduler.add_job(update_all_holdings, "cron", hour=9, minute=30)
+scheduler.add_job(update_all_holdings, "date", run_date=datetime.now() + timedelta(minutes=3))
 scheduler.start()
-
-# 啟動時立即更新
-update_all_holdings()
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=10000)
