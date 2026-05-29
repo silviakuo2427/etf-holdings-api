@@ -13,10 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 設定 Python
         uses: actions/setup-python@v5
@@ -29,12 +25,14 @@ jobs:
       - name: 執行爬蟲
         run: python scraper.py
 
-      - name: 推送更新資料
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add data.json
-          git diff --staged --quiet || git commit -m "更新 ETF 持股資料 $(date '+%Y-%m-%d')"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+      - name: 上傳 data.json
+        uses: actions/upload-artifact@v4
+        with:
+          name: data
+          path: data.json
+
+      - name: 寫入 data.json 到 repository
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "更新 ETF 持股資料"
+          file_pattern: data.json
