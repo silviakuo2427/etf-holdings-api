@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25 06:16",
+  "last_updated": "2026-09-28 07:09",
   "etfs": {
     "00980A": {
       "code": "00980A",
@@ -9,6 +9,7 @@
       "subtype": "台股成長",
       "link": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00980A&tab=Shareholding",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -21,6 +22,7 @@
       "subtype": "台股成長",
       "link": "https://www.uni-fund.com.tw/etf/00981a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -33,6 +35,7 @@
       "subtype": "台股攻守",
       "link": "https://www.capitalfund.com.tw/etf/00982a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -45,6 +48,7 @@
       "subtype": "海外科技",
       "link": "https://www.ctitrust.com.tw/product/etf/00983a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -57,6 +61,7 @@
       "subtype": "台股高息成長",
       "link": "https://www.allianzgi.com.tw/etf/00984a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -69,6 +74,7 @@
       "subtype": "台股市值型",
       "link": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -81,6 +87,7 @@
       "subtype": "海外科技",
       "link": "https://www.taishinetf.com.tw/etf/00986a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -93,6 +100,7 @@
       "subtype": "台股成長",
       "link": "https://www.taishinetf.com.tw/etf/00987a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -105,6 +113,7 @@
       "subtype": "海外科技",
       "link": "https://www.uni-fund.com.tw/etf/00988a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -117,6 +126,7 @@
       "subtype": "海外科技",
       "link": "https://www.jpmorganfunds.com.tw/etf/00989a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -129,6 +139,7 @@
       "subtype": "海外AI",
       "link": "https://www.yuantaetfs.com/product/detail/00990a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -141,6 +152,7 @@
       "subtype": "台股成長",
       "link": "https://www.fhtrust.com.tw/etf/00991a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -153,6 +165,7 @@
       "subtype": "台股科技",
       "link": "https://www.capitalfund.com.tw/etf/00992a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -165,6 +178,7 @@
       "subtype": "台股均衡",
       "link": "https://www.allianzgi.com.tw/etf/00993a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -177,6 +191,7 @@
       "subtype": "台股成長",
       "link": "https://www.firsttrust.com.tw/etf/00994a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -189,6 +204,7 @@
       "subtype": "台股成長",
       "link": "https://www.ctitrust.com.tw/product/etf/00995a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -201,6 +217,7 @@
       "subtype": "台股均衡",
       "link": "https://www.chailease.com.tw/etf/00996a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -213,6 +230,7 @@
       "subtype": "海外成長",
       "link": "https://www.capitalfund.com.tw/etf/00997a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -225,6 +243,7 @@
       "subtype": "台股金融",
       "link": "https://www.fhtrust.com.tw/etf/00998a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -237,6 +256,7 @@
       "subtype": "台股高息",
       "link": "https://www.cathaysite.com.tw/etf/00400a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -249,6 +269,7 @@
       "subtype": "台股配息",
       "link": "https://www.jpmorganfunds.com.tw/etf/00401a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -261,6 +282,7 @@
       "subtype": "台股市值型",
       "link": "https://www.uni-fund.com.tw/etf/00403a",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -273,6 +295,7 @@
       "subtype": "市值型",
       "link": "https://www.yuantaetfs.com/product/detail/0050",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -285,6 +308,7 @@
       "subtype": "高股息",
       "link": "https://www.yuantaetfs.com/product/detail/0056",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -297,6 +321,7 @@
       "subtype": "ESG高股息",
       "link": "https://www.cathaysite.com.tw/etf/00878",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -309,6 +334,7 @@
       "subtype": "高股息",
       "link": "https://www.capitalfund.com.tw/etf/00919",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -321,6 +347,7 @@
       "subtype": "科技高息",
       "link": "https://www.fhtrust.com.tw/etf/00929",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -333,6 +360,7 @@
       "subtype": "高息低波",
       "link": "https://www.yuantaetfs.com/product/detail/00713",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -345,6 +373,7 @@
       "subtype": "市值型",
       "link": "https://www.fubon.com/etf/006208",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -357,6 +386,7 @@
       "subtype": "ESG",
       "link": "https://www.fubon.com/etf/00692",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -369,6 +399,7 @@
       "subtype": "科技主題",
       "link": "https://www.cathaysite.com.tw/etf/00881",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -381,6 +412,7 @@
       "subtype": "半導體",
       "link": "https://www.ctitrust.com.tw/product/etf/00891",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -393,6 +425,7 @@
       "subtype": "電動車",
       "link": "https://www.cathaysite.com.tw/etf/00893",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -405,6 +438,7 @@
       "subtype": "高股息",
       "link": "https://www.fubon.com/etf/00900",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -417,6 +451,7 @@
       "subtype": "Smart Beta",
       "link": "https://www.fhtrust.com.tw/etf/00905",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
@@ -429,18 +464,10 @@
       "subtype": "科技成長",
       "link": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00935",
       "holdings": {
-        "2330": 18.5,
-        "2454": 10.2,
-        "6669": 7.8,
-        "3661": 6.5,
-        "4938": 5.5,
-        "3008": 5.0,
-        "2395": 4.5,
-        "2382": 4.0,
-        "6005": 3.5,
-        "3034": 3.2
+        "7709": 0.28,
+        "0056": 0.09
       },
-      "source": "fallback"
+      "source": "moneydj"
     },
     "00947": {
       "code": "00947",
@@ -450,6 +477,7 @@
       "subtype": "IC設計",
       "link": "https://www.taishinetf.com.tw/etf/00947",
       "holdings": {
+        "7709": 0.28,
         "0056": 0.09
       },
       "source": "moneydj"
